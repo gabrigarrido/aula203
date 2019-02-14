@@ -1,0 +1,19 @@
+body{margin:0}
+
+
+
+#main{ 
+    display:grid;
+    grid-template-areas: "head"
+                          "nav" 
+                          "section"
+                          "footer";
+    grid-template-rows: 100px 500px 100px 50px;
+}
+
+nav{
+background-image:url(background.jpg);
+display:flex;
+
+
+}
